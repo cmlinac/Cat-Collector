@@ -1,0 +1,23 @@
+body {
+    background: #555555;
+}
+
+.game-row {
+    margin-bottom: 20px;
+}
+
+#crystal-1 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
+}
+
+#crystal-2 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
+}
+
+#crystal-3 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
+}
+
+#crystal-4 {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
+}

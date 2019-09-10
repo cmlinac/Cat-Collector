@@ -20,10 +20,12 @@
                     <hr class="my-4">
                     <!-- Play Button -->
                     <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal below you will add a specific amount of points to your score. You win the game by matching your score to the goal number. The value of each crystal is not shown, you can only figure it out by adding its points to your score. Each time the game starts the value of each crystal will be randomly determined. Good luck!</p>
+                    <h2 id="result"></h2>
                 </div>
+
             </div>
         </div>
-        <div class="row">
+        <div class="row game-row">
             <div class="col-md-3" id="goal-col">
                 <div class="card" style="width: 100%">
                     <div class="card-header">
@@ -50,7 +52,7 @@
                         Crystals:
                     </div>
                     <div class="card-body" style="text-align: center">
-                            <button type="button" class="btn btn-light crystal" value="0" id="crystal-1">1</button>
+                            <button type="image" class="btn btn-light crystal" value="0" id="crystal-1">1</button>
                             <button type="button" class="btn btn-light crystal" value="1"  id="crystal-2">2</button>
                             <button type="button" class="btn btn-light crystal" value="2"  id="crystal-3">3</button>
                             <button type="button" class="btn btn-light crystal" value="3"  id="crystal-4">4</button>   
@@ -58,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row game-row">
             <div class="col-md-6" id="wins-col">
                 <div class="card" style="width: 100%">
                     <div class="card-header">

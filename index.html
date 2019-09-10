@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="text-align: center;">
+                <div class="jumbotron" style="padding: 32px;">
+                    <h1 class="display-4">Crystal Collector</h1>
+                    <p class="lead"></p>
+                    <hr class="my-4">
+                    <!-- Play Button -->
+                    <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal below you will add a specific amount of points to your score. You win the game by matching your score to the goal number. The value of each crystal is not shown, you can only figure it out by adding its points to your score. Each time the game starts the value of each crystal will be randomly determined. Good luck!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" id="goal-col">
+                <div class="card" style="width: 100%">
+                    <div class="card-header">
+                        Goal:
+                    </div>
+                    <div class="card-body" style="text-align: center">
+                        <h2 id="goal">0</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" id="score-col">
+                <div class="card" style="width: 100%">
+                    <div class="card-header">
+                        Score:
+                    </div>
+                    <div class="card-body" style="text-align: center">
+                        <h2 id="score">0</h2>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6" id="crystals-col">
+                <div class="card" style="width: 100%">
+                    <div class="card-header">
+                        Crystals:
+                    </div>
+                    <div class="card-body" style="text-align: center">
+                            <button type="button" class="btn btn-light crystal" value="0" id="crystal-1">1</button>
+                            <button type="button" class="btn btn-light crystal" value="1"  id="crystal-2">2</button>
+                            <button type="button" class="btn btn-light crystal" value="2"  id="crystal-3">3</button>
+                            <button type="button" class="btn btn-light crystal" value="3"  id="crystal-4">4</button>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="wins-col">
+                <div class="card" style="width: 100%">
+                    <div class="card-header">
+                        Wins:
+                    </div>
+                    <div class="card-body" style="text-align: center">
+                        <h2 id="wins">0</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="losses-col">
+                <div class="card" style="width: 100%">
+                    <div class="card-header">
+                        Losses:
+                    </div>
+                    <div class="card-body" style="text-align: center">
+                        <h2 id="losses">0</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

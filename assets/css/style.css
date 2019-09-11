@@ -8,21 +8,15 @@ body {
 }
 
 .cat {
-    font-size:22px;
+    width: 100px;
+    padding: 3px;
 }
 
-#cat-1 {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
+.fill {
+    width: 100%;
+    height: 100%;
 }
 
-#cat-2 {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
-}
-
-#cat-3 {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
-}
-
-#cat-4 {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/440px-Square_-_black_simple.svg.png);
+#goal, #score {
+    padding-top: 14%;
 }

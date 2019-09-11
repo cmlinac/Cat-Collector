@@ -28,7 +28,7 @@ reset();
 // run this function whenever the user clicks on a cat
 $(".cat").on("click", function() {
     // get the value of the cat and add it to the score
-    var catIndex = $(this).val();
+    var catIndex = $(this).attr("value");
     score += cats[catIndex];    
 
     // hide win or loss from last game

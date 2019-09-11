@@ -1,9 +1,14 @@
 body {
     background: #555555;
+    color: #555555;
 }
 
 .game-row {
     margin-bottom: 20px;
+}
+
+.cat {
+    font-size:22px;
 }
 
 #cat-1 {

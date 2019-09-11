@@ -29,7 +29,7 @@ reset();
 $(".cat").on("click", function() {
     // get the value of the cat and add it to the score
     var catIndex = $(this).val();
-    score += cats[catIndex];
+    score += cats[catIndex];    
 
     // hide win or loss from last game
     $("#result").text("")

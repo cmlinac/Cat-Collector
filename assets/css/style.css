@@ -20,3 +20,7 @@ body {
 #goal, #score {
     padding-top: 14%;
 }
+
+.jumbotron {
+    margin-bottom: 20px;
+}
